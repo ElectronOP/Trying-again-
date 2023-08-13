@@ -16,8 +16,8 @@ def load_lottieurl(url):
 # -----LOAD ASSETS-----
 
 lottie_coding = load_lottieurl("https://lottie.host/40b45951-80d4-4574-8172-af41ca65cbb3/fwBENUBuhN.json")
-Image11 = Image.open("test python/image11.png")
-Dowload = Image.open("test python/download.jpeg")
+Image11 = Image.open("image11.png")
+Dowload = Image.open("download.jpeg")
 
 #--------HEADER SECTION ---------
 with st.container():
@@ -78,7 +78,7 @@ with st.container():
          st.subheader("ElectronOP: The Legend")
          st.write(
             """
-            Im ElectronOP one of Minecraft Legends i love playing Minecraft and listening to Eminem
+            Im ElectronOP, one of Minecraft Legends i love playing Minecraft and listening to Eminem
             I listen Rap songs and write rap rhymes
             Heres my profile pic.
             """
