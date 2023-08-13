@@ -22,7 +22,7 @@ Dowload = Image.open("download.jpeg")
 #--------HEADER SECTION ---------
 with st.container():
     st.subheader("Hi, Electron this side")
-    st.title("Im the ElectronOP")
+    st.title("Im ElectronOP")
     st.write("I love Playing Games Especially, Minecraft and Gta Series")
     st.write("[Checkout my Discord  Server >](https://discord.gg/89yhvWse)")
 
