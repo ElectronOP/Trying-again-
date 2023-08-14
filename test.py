@@ -99,7 +99,8 @@ image_column, text_column = st.columns((1,2))
              """ 
              I love writing Rap verses.
 So far I have written 2 Verses
-i Repeat will the real slim shady......
+i Repeat will the 
+- Real Slim Shady......
 
 """
 )
