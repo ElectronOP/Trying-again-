@@ -18,6 +18,7 @@ def load_lottieurl(url):
 lottie_coding = load_lottieurl("https://lottie.host/40b45951-80d4-4574-8172-af41ca65cbb3/fwBENUBuhN.json")
 Image11 = Image.open("image11.jpg")
 Dowload = Image.open("download.jpg")
+Rap = Image.open("Image1234")
 
 #--------HEADER SECTION ---------
 with st.container():
@@ -89,8 +90,12 @@ with st.container():
      st.write("---") 
      st.write("My Rap Verses") 
      st.header("##")
-     st.subheader("Rap Legend") 
-     st.write( 
+image_column, text_column = st.columns((1,2))
+    with image_column:
+         st.image(Rap)
+    with text_column:
+         st.subheader("Rap Legend") 
+         st.write( 
              """ 
              I love writing Rap verses.
 So far I have written 2 Verses
