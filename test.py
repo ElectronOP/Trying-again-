@@ -89,8 +89,8 @@ with st.container():
      st.write("---") 
      st.write("My Rap Verses") 
      st.header("##")
-          st.subheader("Rap Legend") 
-          st.write( 
+     st.subheader("Rap Legend") 
+     st.write( 
              """ 
              I love writing Rap verses.
 So far I have written 2 Verses
