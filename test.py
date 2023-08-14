@@ -87,10 +87,10 @@ with st.container():
 
 #------ my Rap verses -------
 with st.container(): 
-     st.write("---") 
-     st.write("My Rap Verses") 
-     st.header("##")
-     image_column, text_column = st.columns((1,2))
+    st.write("---") 
+    st.write("My Rap Verses") 
+    st.header("##")
+    image_column, text_column = st.columns((1,2))
     with image_column:
         st.image(Rap)
     with text_column:
