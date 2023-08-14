@@ -92,7 +92,7 @@ with st.container():
      st.header("##")
      image_column, text_column = st.columns((1,2))
     with image_column:
-         st.image(Rap)
+        st.image(Rap)
     with text_column:
          st.subheader("Rap Legend") 
          st.write( 
