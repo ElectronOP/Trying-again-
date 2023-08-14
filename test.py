@@ -99,8 +99,8 @@ with st.container():
              """ 
              I love writing Rap verses.
 So far I have written 2 Verses
-i Repeat will the 
-- Real Slim Shady......
+Btw, I will Repeat
+- Will The Real Slim Shady......
 
              """
 )
