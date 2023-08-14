@@ -83,7 +83,7 @@ with st.container():
             Heres my profile pic.
             """
          )
-
+#------ my Rap verses -------
 with st.container(): 
      st.write("---") 
      st.write("My Rap Verses") 
@@ -97,7 +97,7 @@ with st.container():
              """ 
              I love writing Rap verses.
 So far I have written 2 Verses
-i Repeat will the real slim shady pls stand up 
+i Repeat will the real slim shady..... 
              """ 
           )
 
