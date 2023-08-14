@@ -83,18 +83,4 @@ with st.container():
             Heres my profile pic.
             """
          )
-#------ my Rap verses -------
-with st.container(): 
-     st.write("---") 
-     st.write("My Rap Verses") 
-     st.header("##")
-          st.subheader("MixTapes Legend") 
-          st.write( 
-             """ 
-             I love writing Rap verses.
-So far I have written 2 Verses
-i Repeat will the real slim shady..... 
-             """ 
-          )
-
 
