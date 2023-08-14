@@ -88,9 +88,7 @@ with st.container():
      st.write("---") 
      st.write("My Rap Verses") 
      st.header("##") 
-     image_column, text_column = st.columns((1,2)) 
-     with image_column: 
-          st.image(Image11) 
+     text_column = st.columns((1,2)) 
      with text_column: 
           st.subheader("MixTapes Legend") 
           st.write( 
