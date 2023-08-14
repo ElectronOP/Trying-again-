@@ -41,7 +41,7 @@ with st.container():
            - School to coaching
            - So basically busy
           
-           If you want to contact me my Discord is given above
+           If you want to contact me, my Discord is given above
            
            """
         )
