@@ -16,8 +16,8 @@ def load_lottieurl(url):
 # -----LOAD ASSETS-----
 
 lottie_coding = load_lottieurl("https://lottie.host/40b45951-80d4-4574-8172-af41ca65cbb3/fwBENUBuhN.json")
-Image11 = Image.open("image11.png")
-Dowload = Image.open("download.jpeg")
+Image11 = Image.open("image11.jpg")
+Dowload = Image.open("download.jpg")
 
 #--------HEADER SECTION ---------
 with st.container():
