@@ -1,4 +1,4 @@
-from PIL import Image
+ PIL import Image
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
@@ -84,6 +84,21 @@ with st.container():
             """
          )
 
-
+with st.container(): 
+     st.write("---") 
+     st.write("My Rap Verses") 
+     st.header("##") 
+     image_column, text_column = st.columns((1,2)) 
+     with image_column: 
+          st.image(Image11) 
+     with text_column: 
+          st.subheader("MixTapes Legend") 
+          st.write( 
+             """ 
+             I love writing Rap verses.
+So far I have written 2 Verses
+i Repeat will the real slim shady pls stand up 
+             """ 
+          )
 
 
