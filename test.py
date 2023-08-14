@@ -87,9 +87,7 @@ with st.container():
 with st.container(): 
      st.write("---") 
      st.write("My Rap Verses") 
-     st.header("##") 
-     text_column = st.columns((1,2)) 
-     with text_column: 
+     st.header("##")
           st.subheader("MixTapes Legend") 
           st.write( 
              """ 
