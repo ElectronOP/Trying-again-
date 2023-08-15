@@ -36,11 +36,11 @@ with st.container():
         st.write("##")
         st.write(
             """ 
-           My Routine is mostly busy, it goes like:
-           - Wake up, then go to school
-           - Then from School to house
-           - School to coaching
-           - So basically busy
+           I study and play games:
+           - Minecraft
+           - Gta 5
+           - Gta San Andreas
+           - Gta vice city
           
            If you want to contact me, my Discord is given above
            
