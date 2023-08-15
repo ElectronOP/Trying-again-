@@ -40,7 +40,8 @@ with st.container():
            - Minecraft
            - Gta 5
            - Gta San Andreas
-           - Gta vice city
+           - Gta Vice city
+           - Far Cry 3
           
            If you want to contact me, my Discord is given above
            
