@@ -107,3 +107,32 @@ Btw, I will Repeat
 )
 
 
+
+#--------- Contact ----------
+
+with st.container():
+    st.write("---")
+    st.header("Get In Touch With Me!")
+    st.write("")
+
+
+contact_form = """
+<form action="https://formsubmit.co/nikhiliron285@gmail.com" method="POST">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your Name" required>
+     <input type="email" name="email" placeholder="Your Email" required>
+     <textarea name="message" placeholder="Your Message Here" required></textarea>
+     <button type="submit">Send</button>
+</form>
+"""
+
+left_column, right_column = st.columns(2)
+with left_column:
+        st.markdown(contact_form, unsfe_allow_html=True)
+with right_column:
+        st.empty()
+        
+
+
+
+
