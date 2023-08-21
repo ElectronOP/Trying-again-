@@ -36,7 +36,7 @@ with st.container():
         st.write("##")
         st.write(
             """ 
-           I study and play games:
+           I Play games like:
            - Minecraft
            - Gta 5
            - Gta San Andreas
