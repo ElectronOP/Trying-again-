@@ -133,6 +133,8 @@ with right_column:
         st.empty()
         
 
+#----------
 
-
+with st.container():
+    st.balloons()
 
