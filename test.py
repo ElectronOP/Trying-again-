@@ -132,9 +132,5 @@ with left_column:
 with right_column:
         st.empty()
         
-
-#----------
-
-with st.container():
-    st.balloons()
+st.balloons()
 
