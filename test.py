@@ -134,10 +134,10 @@ with right_column:
         
 st.balloons()
 
-tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
+tab1, tab2 = st.tabs(["Lol", "1"])
 
 with tab1:
-     tab1.write("this is tab 1")
+     tab1.write("Hey")
 with tab2:
-     tab2.write("this is tab 2")
+     tab2.write("Hello")
  
