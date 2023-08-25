@@ -137,7 +137,7 @@ st.balloons()
 tab1, tab2 = st.tabs(["Lol", "1"])
 
 with tab1:
-     tab1.write("Hey")
+     tab1.container():
 with tab2:
      tab2.write("Hello")
  
