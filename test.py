@@ -145,12 +145,4 @@ with tab2:
 
 #------ button function --------
 
-with st.container():
-    st.write("---")
-    st.write("Did you like my website")
-    st.header("##")
-    
-a = st.button("Like")
-if a:
 
-st.write("Thanks")
