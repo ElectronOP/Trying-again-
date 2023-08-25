@@ -150,4 +150,7 @@ with st.container():
     st.write("Did you like my website")
     st.header("##")
     
-    st.button(Label, key=None, help=None, on_click=None, args=None, kwargs=None, type="secondary", disabled=False, use_container_width=False)
+a = st.button("Like")
+if a:
+
+st.write("Thanks")
