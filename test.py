@@ -87,6 +87,7 @@ with st.container():
          )
 
 #------ my Rap verses -------
+
 with st.container(): 
     st.write("---") 
     st.write("My Rap Verses") 
@@ -137,7 +138,16 @@ st.balloons()
 tab1, tab2 = st.tabs(["Lol", "1"])
 
 with tab1:
-     tab1.container():
+     tab1.("Hi"):
 with tab2:
      tab2.write("Hello")
  
+
+#------ button function --------
+
+with st.container():
+    st.write("---")
+    st.write("Did you like my website")
+    st.header("##")
+    
+    st.button(Lime, key=None, help=None, on_click=None, args=None, kwargs=None, *, type="secondary", disabled=False, use_container_width=False)
