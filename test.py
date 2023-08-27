@@ -139,7 +139,7 @@ tab1, tab2 = st.tabs(["Lol", "1"])
 
 with tab1:
      tab1.write("Hi")
-    st.write("Wassup")
+    st.header("Wassup")
 with tab2:
      tab2.write("Hello")
  
