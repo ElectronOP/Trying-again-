@@ -147,5 +147,5 @@ with tab2:
 
 toggle = st.toggle("Brain")
 if toggle:
-    st.write("Dones")
+    st.write('on')
 
