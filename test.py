@@ -146,4 +146,5 @@ with tab2:
 
 #------ button function --------
 
+st.toggle(HI, value=False, key=None, help=None, on_change=st.write("wassup"), args=None, kwargs=None, *, disabled=False, label_visibility="visible")
 
