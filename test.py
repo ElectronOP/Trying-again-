@@ -11,7 +11,14 @@ def load_lottieurl(url):
     if r.status_code != 200:
         return None
     return r.json()
+#----------CSS Style---------
 
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
+local_css("style.css")
 
 # -----LOAD ASSETS-----
 
