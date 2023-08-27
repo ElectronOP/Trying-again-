@@ -145,6 +145,7 @@ with tab2:
 
 #------ button function --------
 
+st.write("---")    
 toggle = st.toggle("Brain")
 if toggle:
     st.write('on')
