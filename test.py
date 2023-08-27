@@ -139,13 +139,14 @@ tab1, tab2 = st.tabs(["Lol", "1"])
 
 with tab1:
      tab1.write("Hi")
+     tab1.header("heyy")
 with tab2:
      tab2.write("Hello")
  
 
 #------ button function --------
 
-st.write("---")    
+    
 toggle = st.toggle("Brain")
 if toggle:
     st.write('on')
